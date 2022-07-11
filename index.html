@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>ToDoList App</title>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="css/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <title>ToDoList App</title>
-  <!-- CSS only -->
-  <link rel="stylesheet" href="css/node_modules/bootstrap/dist/css/bootstrap.css" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h1>Todo App</h1>
-        <input class="form-control form-control-sm" placeholder="Type Your Todo" />
-      </div>
-      <div id="todo-list">
-        <ul>
-          <li>list1
-           <span class="">
-          </li>
-          <li>list2
-            <span class=""></span>
-          </li>
-          <li>list3
-            <span class=""></span>
-          </li>
-        </ul>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Todo App</h1>
+          <input
+            class="form-control form-control-sm"
+            placeholder="Type Your Todo"
+          />
+        </div>
+        <div id="todo-list">
+          <ul>
+            <li>
+              list1
+              <span class="actions">
+                <a class="delete">Delete</a>
+              </span>
+            </li>
+            <li>
+              list2
+              <span class="actions">
+                <a class="delete">Delete</a>
+              </span>
+            </li>
+            <li>
+              list3
+              <span class="actions">
+                <a class="delete">Delete</a>
+              </span>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
 
-  <script src="app.js"></script>
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>

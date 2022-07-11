@@ -12,3 +12,17 @@
     margin-top: 5px;
     background-color: rgba(240, 240, 240, .4);
 }
+span.actions {
+    float: right;
+   
+}
+a.delete {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+    visibility: hidden;
+}
+#todo-list ul li:hover a.delete {
+    visibility: visible;
+    color: red;
+}
