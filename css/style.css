@@ -22,6 +22,9 @@ a.delete {
     text-decoration: none;
     visibility: hidden;
 }
+#todo-list ul li:hover  {
+    background-color: rgba(240, 240, 240, .9);
+}
 #todo-list ul li:hover a.delete {
     visibility: visible;
     color: red;
