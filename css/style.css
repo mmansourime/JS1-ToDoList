@@ -1,0 +1,14 @@
+#todo-list{
+    border: 40px;
+    padding-top: 40px;
+}
+#todo-list ul{
+    padding-left: 0px;
+    list-style-type: none;
+}
+#todo-list ul li{
+    padding: 10px;
+    border: 1px dashed #ddd;
+    margin-top: 5px;
+    background-color: rgba(240, 240, 240, .4);
+}
