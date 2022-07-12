@@ -3,8 +3,12 @@
 //اول یه کلاس مینویسیم
 
 class Todo {
-    constructor() {
+//یه تابعی ویژه است که هر زمان یه شی از این کلاس تودو را ایجاد کنیم این تابع خود به خود فراخوانی میشود 
+    constructor(todoInputID, todoListID) {
+        //دوتا آرگومان برای گرفتن ای دی ورودی و لیست بهش میدیم
+    console.log(todoInputID, todoListID)
         
     }
 }
-new Todo();
+//برای فراخوانی کلاس تودو بعد از ایجاد شی
+new Todo('todo-Input', 'todo-list');
